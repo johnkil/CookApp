@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CookApp</string>
+    
+    <string name="snacks">Snacks</string>
+	<string name="salads">Salads</string>
+	<string name="first">First</string>
+	<string name="second">Second</string>
+	<string name="desserts">Desserts</string>
+	<string name="beverages">Beverages</string>
+	
+	<string-array name="categories">
+	    <item>Snacks</item>
+	    <item>Salads</item>
+	    <item>First</item>
+	    <item>Second</item>
+	    <item>Desserts</item>
+	    <item>Beverages</item>
+	</string-array>
+
+</resources>
