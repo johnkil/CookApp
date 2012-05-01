@@ -1,17 +1,18 @@
 package com.devspark.cookapp.ui;
 
+import com.actionbarsherlock.app.ActionBar;
+import com.actionbarsherlock.app.ActionBar.Tab;
+import com.actionbarsherlock.app.SherlockFragmentActivity;
+import com.actionbarsherlock.view.MenuItem;
 import com.devspark.cookapp.R;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.ActionBar;
-import android.support.v4.app.ActionBar.Tab;
 import android.support.v4.app.FragmentActivity;
 import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.MenuItem;
 import android.util.Log;
 
-public class CategoriesActivity extends FragmentActivity implements ActionBar.TabListener {
+public class CategoriesActivity extends SherlockFragmentActivity implements ActionBar.TabListener {
 	private static final String LOG_TAG = CategoriesActivity.class.getSimpleName();
 	
 	@Override
